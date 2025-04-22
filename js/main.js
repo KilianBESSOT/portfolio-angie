@@ -119,8 +119,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 return false;
             }
             
-            // En production, Formspree se chargera de l'envoi du formulaire
-            // Nous pouvons ajouter un événement pour gérer la redirection manuellement si nécessaire
+            // En production (site en ligne sur GitHub Pages)
+            // Formspree se chargera de l'envoi du formulaire et l'enverra à bessotkilian@gmail.com
+            // L'utilisateur sera redirigé vers https://kilianbessot.github.io/portfolio-angie/ après l'envoi
         });
     }
 });
