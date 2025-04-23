@@ -120,7 +120,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
             
             // En production (site en ligne sur GitHub Pages)
-            // Formspree se chargera de l'envoi du formulaire et l'enverra à bessotkilian@gmail.com
+            // Formspree se chargera de l'envoi du formulaire via l'endpoint https://formspree.io/f/xblojlka
             // L'utilisateur sera redirigé vers https://kilianbessot.github.io/portfolio-angie/ après l'envoi
         });
     }
